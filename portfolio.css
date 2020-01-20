@@ -1,0 +1,469 @@
+   
+.Headerlabel
+{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family : Arial;
+}
+
+.HeaderlabelSpan
+{
+	line-height:20px;
+	height:20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family : Arial;
+    text-align:center;
+    width:100%;
+    display:block;
+}
+
+.takdinMainArticle
+{
+    float: right;
+}
+
+.articleTbl
+{
+    width: 100%;
+}
+
+.fullWidth
+{
+    width: 100%;
+    display: block;
+}
+
+.symmetricArticles .articleTbl tr .portalNewsContentTd
+{
+    width: 49%;
+}
+
+.symmetricArticles .articleTbl tr .portalNewsContentTd .articleLinkTitle img
+{
+    float: right;
+    clear: none;
+}
+
+.symmetricArticles .articleTbl tr .portalNewsContentTd .portalNewsContentHandDT
+{
+    margin-top: 2px;
+    float: right;
+    clear: none;
+    color: #6e0e0f;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mainArticle
+{
+    width: 96%;
+    float: left;
+}
+
+.takdinMainArticle .portalNewsMainImgTd
+{
+    width: 217px;
+    height: 147px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.takdinMainArticle .portalNewsMainImgTd img
+{
+    width: inherit;
+    height: inherit;
+    border: solid 1px #cfd0d2;
+    padding: 1px;
+}
+
+.takdinMainArticle tr .separator
+{
+    width: 100%;
+    background-color: White;
+}
+
+.takdinMainArticle tr .separator hr
+{
+    border-color:#bebebe;
+    border-style: dotted ;
+    border-width:1px;
+    
+}
+
+
+.mainArticle tr .separator
+{
+    width: 100%;
+    background-color: White;
+}
+
+.mainArticle tr .separator hr
+{
+    border-color:#bebebe;
+    border-style: dotted ;
+    border-width:1px;
+}
+
+.portalNewsImgTd
+{
+    width: 72px;
+    height: 68px;
+    text-align: center;
+    vertical-align: top;
+   
+}
+
+.portalNewsImgTd img
+{
+    width: 72px;
+    height: 68px;
+    border: solid 1px #cfd0d2;
+    padding: 1px;
+    margin-top: 8px;
+    left:18px;
+}
+
+.portalNewsContentTd
+{
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.portalNewsContentTd img
+{
+    float: right;
+    margin: 6px 0 0 3px;
+    border: none;
+}
+
+.portalNewsContentTd table tbody tr td a img
+{
+    float: right;
+    margin: 12px 0 0 3px;
+    border: none;
+}
+
+.portalNewsContentTd a
+{
+    color: #700E10;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    font-family:Arial;
+}
+
+.portalNewsContentTd .articleLinkTitle
+{
+    width: 95%;
+    font-size: 16px;
+    text-decoration: bold;
+    font-family:Arial;
+    color:#700E10;
+}
+
+.portalNewsContentTd .articleLinkBody
+{
+    width: 95%;
+   text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #383838;
+    font-weight: normal;
+    
+}
+
+.portalNewsContentTd a .articleDate
+{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.portalNewsContentTd .mainArticleDate
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 5px 0 0;
+}
+
+
+.portalNewsContentTd .ppbold a
+{
+    font-size: 13px;
+    color:#383838; float :left;font-weight: bold;
+   
+}
+
+
+   
+
+
+/*
+.portalNewsContentTd p
+{
+    margin: 0;
+}
+*/
+
+.textBoxBody
+{
+    float: right;
+    clear: both;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: Black;
+    font-weight: normal;
+}
+
+.articleDate
+{
+    float: right;
+    clear: both;
+}
+
+.articleSecondaryDate
+{
+    margin-right: 5px;
+}
+
+.leftArticle
+{
+    width: 81%;
+    background-color: White;
+    margin: 5px auto;
+    line-height: 17px;
+}
+
+.leftArticle .portalNewsImgTd
+{
+    text-align: center;
+    vertical-align: top;
+}
+
+.leftArticle .portalNewsImgTd img
+{
+    width: 60px;
+    height: 60px;
+    border: solid 1px #cfd0d2;
+    padding: 1px;
+    margin-top: 2px;
+}
+
+.leftArticle .articleLinkTitle
+{
+    color: #6e0e0f;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    clear: both;
+}
+
+.portalNewsContentTd .articleLinkTitleS
+{
+    color: #6e0e0f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    width: 95%;
+}
+
+.leftArticle .itemHeader
+{
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+    clear: both;
+}
+
+.leftArticle .itemText
+{
+    font-size: 12px;
+    float: right;
+    clear: both;
+}
+
+.leftArticle .moreWrapper
+{
+    text-align: left;
+    background-color: White;
+    width: 100%;
+    height: 25px;
+}
+
+.leftArticle .moreWrapper a
+{
+    font-size: 12px;
+    color: #661524;
+    float: left;
+    padding: 3px 7px;
+}
+
+.controlHeaderTbl
+{
+    direction: rtl;
+    background-color: #651522;
+    margin: 3px 3px 0;
+    width: 99%;
+}
+
+.controlHeaderTbl label
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: White;
+}
+
+.controlHeaderTbl .more a
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #cbbcc0;
+    text-decoration: none;
+}
+
+.controlHeaderTbl .more
+{
+    padding: 3px;
+    text-align: left;
+}
+
+
+
+.regStudInput175
+{
+    border: 0;
+    direction: rtl;
+    width: 175px;
+    height: 27px;
+    background-image: url('../Images/input_bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.regStudInputBig
+{
+    border: 0;
+    direction: rtl;
+    width: 380px;
+    height: 28px;
+    background-image: url('../Images/378px.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    vertical-align: middle;
+    text-align: right;
+    padding: 5px;
+}
+.regStudInputArea
+{
+    border: 0;
+    direction: rtl;
+    width: 650px;
+    height: 130px;
+    background-image: url('../Images/655_text_area.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #CCCCCC;
+    text-align: inherit;
+    padding: 5px 5px 0px 5px;
+}
+#tooltip
+{
+    position: absolute;
+    border: 1px solid #a1a1a1;
+    border-radius: 10px;
+    background: #f3f2f6;
+    padding: 2px 5px;
+    color: #333;
+    display: none;
+    max-width: 200px;
+}
+
+/* page Register_Student */
+.studPage
+{
+    float: right;
+}
+
+.studPage .studPageForm
+{
+    border-right: 2px solid #E8E8E8;
+    background-image: url('../Images/6.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.regStudInput
+{
+    border: 0;
+    direction: rtl;
+    width: 302px;
+    height: 28px;
+    background-image: url('../Images/302px.png');
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    background-position: right top;
+}
+.regStudInput input
+{
+    width: 95%;
+    border: 0;
+}
+
+
+.studPage .studPageBtn
+{
+    background-image: url('../images/btn.png');
+    width: 223px;
+    height: 72px;
+    margin: 5px 2px 0;
+    cursor: pointer;
+}
+
+
+
+.studPage .studPageBtnSmall
+{
+    background-image: url('../images/btn_108.png');
+    width: 108px;
+    height: 27px;
+    color: White;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 2px 0;
+    cursor: pointer;
+}
+
+.studPage .studPageSpan
+{
+    background-image: url('../images/mark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #6e0e0f;
+    font-size: 18px;
+    width: 167px;
+    height: 21px;
+    font-weight: bold;
+}
+
+
+
+
+.regStudInput select
+{
+    width: 295px;
+    height: 21px;
+    border: 0;
+}
