@@ -1,0 +1,100 @@
+﻿.secondLine
+{
+    height: 43px;
+    width: 100%;
+    background-image: url('gradient_gray.PNG');
+    background-repeat: repeat;
+    margin: 1px 0;
+    border-bottom: solid 1px #cacacc;
+    clear: both;
+}
+
+.secondLine ul
+{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
+.secondLine ul li
+{
+    height: 43px;
+    float: right;
+    cursor: pointer;
+}
+
+.secondLine ul li a
+{
+    line-height:43px;
+    float:right;
+    background-image: url('gradient_gray.PNG');
+    background-repeat: repeat; 
+    height:43px;
+    font-size: 14px;
+    color: #636363;
+    font-weight: bold;
+    font-family:Arial;
+    text-decoration:none;
+    padding:0 16px;
+    *float:none;
+    *display:block;
+}
+
+.secondLine ul li a:hover, .secondLine ul li .current
+{
+    line-height:43px;
+    float:right;
+    background-image: url('nav_bg_hover.png');
+    background-repeat: repeat; 
+    height:43px;
+    font-size:14px;
+    color: #636363;
+    font-weight: bold;
+    font-family:Arial;
+    padding:0 16px;
+    *float:none;
+    *display:block;
+}
+
+.secondLine ul .separator
+{
+    background-image: url('seperator.png');
+    background-repeat: repeat;
+    width: 1px;
+    float: right;
+}
+
+.separator
+{
+    height: 1px;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.secondLine span
+{
+    float:left;
+    margin-top:10px;
+}
+
+.secondLine span input
+{
+    margin:0;
+    height:20px;
+    float:left;
+    width:150px;
+    *width:135px;
+    text-align:right;
+    border:solid 1px #abadb3;
+}
+
+.secondLine span img
+{
+    float:left;
+    border:none;
+    width:30px;
+    height:24px;
+    cursor: pointer;
+    vertical-align:bottom;
+}
