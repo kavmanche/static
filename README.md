@@ -1,0 +1,2 @@
+# static
+Takdin Static Content
