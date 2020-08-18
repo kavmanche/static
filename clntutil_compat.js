@@ -1,4 +1,4 @@
-//<script>
+﻿//<script>
 // Cross-browser compatibility layer.
 
 var Compat = { };

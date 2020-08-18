@@ -1,4 +1,4 @@
-//<script>
+﻿//<script>
 // Flags for copyFrom() and makeCopy()
 
 var globalSettings = 1;

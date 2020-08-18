@@ -1,4 +1,4 @@
-/*
+﻿/*
  * jquery.layout 1.2.0
  *
  * Copyright (c) 2008 
