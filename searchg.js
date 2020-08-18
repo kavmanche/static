@@ -1,4 +1,4 @@
-var bAddExceptionFlag = false;
+ο»Ώvar bAddExceptionFlag = false;
 //var appDomain = "http://takdin.hashavim.co.il/searchg/";
 //var appDomain = "http://localhost/Hashavim.Web.Takdin.takdinlight/";
 var sHomeUrl = getsHomeUrl();
@@ -19,7 +19,7 @@ function trim(s)
 }
 
 function sendQuery() {
-    //ηγω
+    //Χ—Χ“Χ©
     var tblPorfolio = document.getElementById("tblPorfolio");
     tblPorfolio.style.display = "none";
 	var o = document.getElementById("searchTerm");
@@ -27,7 +27,7 @@ function sendQuery() {
 	s = trim(s);
 	if(s == "")
 	{
-		alert("πΰ δλπρ ςψκ μηιτεω");
+		alert("Χ Χ Χ”Χ›Χ Χ΅ ΧΆΧ¨Χ ΧΧ—Χ™Χ¤Χ•Χ©");
 		o.focus();
 		return;
 	}
@@ -84,7 +84,7 @@ function loadComboYears(cbName)
 		var shortYear;
 		// add first empty line to CB
 		oOption = document.createElement("option");
-		oOption.text = "αηψ ωπδ";
+		oOption.text = "Χ‘Χ—Χ¨ Χ©Χ Χ”";
 		oOption.value = "";	
 		var oCB = document.getElementById(cbName);
 		oCB.options.add(oOption);
@@ -145,9 +145,9 @@ function getElementValue(o)
 // Email address validation
 function isValidEmail(s, o)
 {
-    if (!((s.search(/^.+@.+\..+/) > -1) && (s.search(/[ΰ-ϊ ]/i) == -1))) 		// match e-mail pattern
+    if (!((s.search(/^.+@.+\..+/) > -1) && (s.search(/[Χ-Χª ]/i) == -1))) 		// match e-mail pattern
 	{
-		alert("λϊεαϊ γεΰ\"μ μΰ ηεχιϊ");
+		alert("Χ›ΧªΧ•Χ‘Χª Χ“Χ•Χ\"Χ ΧΧ Χ—Χ•Χ§Χ™Χª");
 		o.focus();
 		return false;
 	}
@@ -159,7 +159,7 @@ function isMatchEmail(s, o)
 	    var p = document.getElementById("email");
 	    if(s != p.value)
 	    {
-	        alert("δλϊεαϊ αωγδ [ΰιξεϊ ΰιξιιμ] ΰιπδ ζδδ μλϊεαϊ αωγδ [ΰιξιιμ].\n ΰπΰ ϊχπε επρε ωπιϊ");
+	        alert("Χ”Χ›ΧªΧ•Χ‘Χª Χ‘Χ©Χ“Χ” [ΧΧ™ΧΧ•Χª ΧΧ™ΧΧ™Χ™Χ] ΧΧ™Χ Χ” Χ–Χ”Χ” ΧΧ›ΧªΧ•Χ‘Χª Χ‘Χ©Χ“Χ” [ΧΧ™ΧΧ™Χ™Χ].\n ΧΧ Χ ΧªΧ§Χ Χ• Χ•Χ Χ΅Χ• Χ©Χ Χ™Χª");
 	        o.focus();
 	        return false;
 	    }
@@ -170,7 +170,7 @@ function isEmpty(s, o)
 {
 	if(trim(s) == "")
 	{
-		alert("ιω μξμΰ ωγδ [ " + o.getAttribute("title") + "]");
+		alert("Χ™Χ© ΧΧΧΧ Χ©Χ“Χ” [ " + o.getAttribute("title") + "]");
 		o.focus();
 		return true;
 	}
@@ -183,7 +183,7 @@ function checkIsNumeric(o)
 	var creditCard =  document.getElementById("CreditCardNumber").value;   
 	if (re.test(o.value))	
 	{
-		alert("δωγδ " + "[" + o.getAttribute("title") + "]" + " ιλεμ μδλιμ ψχ ςψλιν ξρτψιιν 0-9");
+		alert("Χ”Χ©Χ“Χ” " + "[" + o.getAttribute("title") + "]" + " Χ™Χ›Χ•Χ ΧΧ”Χ›Χ™Χ Χ¨Χ§ ΧΆΧ¨Χ›Χ™Χ ΧΧ΅Χ¤Χ¨Χ™Χ™Χ 0-9");
 		o.focus();
 		return false;
 	}
@@ -191,7 +191,7 @@ function checkIsNumeric(o)
 	{
 		if(o.value.length > 9)
 		{
-			alert("ΰεψκ ξχριξμι ωμ 9 ρτψεϊ μωγδ ϊςεγϊ ζδεϊ");
+			alert("ΧΧ•Χ¨Χ ΧΧ§Χ΅Χ™ΧΧΧ™ Χ©Χ 9 Χ΅Χ¤Χ¨Χ•Χª ΧΧ©Χ“Χ” ΧªΧΆΧ•Χ“Χª Χ–Χ”Χ•Χª");
 			o.focus();
 			return false;
 		}
@@ -200,14 +200,14 @@ function checkIsNumeric(o)
 	{
 		if(o.value.length != 4 && o.value.length != 3)
 		{
-			alert("δωγδ [3 ρτψεϊ ΰηψεπεϊ αβα δλψθιρ] διπε ξρτψ αΰεψκ ωμ 3 ΰε 4 ρτψεϊ δπξφΰεϊ αβα δλψθιρ");
+			alert("Χ”Χ©Χ“Χ” [3 Χ΅Χ¤Χ¨Χ•Χª ΧΧ—Χ¨Χ•Χ Χ•Χª Χ‘Χ’Χ‘ Χ”Χ›Χ¨ΧΧ™Χ΅] Χ”Χ™Χ Χ• ΧΧ΅Χ¤Χ¨ Χ‘ΧΧ•Χ¨Χ Χ©Χ 3 ΧΧ• 4 Χ΅Χ¤Χ¨Χ•Χª Χ”Χ ΧΧ¦ΧΧ•Χª Χ‘Χ’Χ‘ Χ”Χ›Χ¨ΧΧ™Χ΅");
 			o.focus();
 			return false;
 		}
 
 		if ((o.value == creditCard.substr(creditCard.length - 4)) || (o.value == creditCard.substr(creditCard.length - 3)))
 		{
-		    if (!confirm("ΰπΰ εγΰ λι δεζπε 3 δρτψεϊ δΰηψεπεϊ ξβα δλψθιρ εμΰ 3 δρτψεϊ δΰηψεπεϊ ωμ ξρτψ λψθιρ ΰωψΰι.\n δΰν μδξωικ?"))
+		    if (!confirm("ΧΧ Χ Χ•Χ“Χ Χ›Χ™ Χ”Χ•Χ–Χ Χ• 3 Χ”Χ΅Χ¤Χ¨Χ•Χª Χ”ΧΧ—Χ¨Χ•Χ Χ•Χª ΧΧ’Χ‘ Χ”Χ›Χ¨ΧΧ™Χ΅ Χ•ΧΧ 3 Χ”Χ΅Χ¤Χ¨Χ•Χª Χ”ΧΧ—Χ¨Χ•Χ Χ•Χª Χ©Χ ΧΧ΅Χ¤Χ¨ Χ›Χ¨ΧΧ™Χ΅ ΧΧ©Χ¨ΧΧ™.\n Χ”ΧΧ ΧΧ”ΧΧ©Χ™Χ?"))
 		    return;
 		}
 	}
@@ -271,7 +271,7 @@ function oSubmitRemove() {
         return false;
     var oCondition = document.getElementById("cbConditions");
     if (!oCondition.checked) {
-        alert("μΰ ριξπϊ \"χψΰϊι εδαπϊι ΰϊ ϊδμικ δρψϊ δξρξκ, εΰπι ξΰωψ ΰϊ ϊπΰι δωιξεω.\"");
+        alert("ΧΧ Χ΅Χ™ΧΧ Χª \"Χ§Χ¨ΧΧªΧ™ Χ•Χ”Χ‘Χ ΧªΧ™ ΧΧª ΧªΧ”ΧΧ™Χ Χ”Χ΅Χ¨Χª Χ”ΧΧ΅ΧΧ, Χ•ΧΧ Χ™ ΧΧΧ©Χ¨ ΧΧª ΧªΧ ΧΧ™ Χ”Χ©Χ™ΧΧ•Χ©.\"");
         return false;
     }
     bFirst = false;
@@ -305,7 +305,7 @@ function goContactToRemove() {
 }
 
 function RemoveDeny(element) {
-    element.innerHTML = "μχεη ιχψ, μΰ πιϊο μδριψ ξρξκ ζδ ξΰηψ ωδεΰ τεψρν ςμ ιγι αιϊ δξωτθ δςμιεο ΰε αιϊ δγιο δΰψφι μςαεγδ. αξιγδ ωδπκ ξςεπιιο μτπεϊ ΰμιπε απεωΰ, ΰπΰ τπδ ΰμιπε αξιιμ<br/><a style='text-decoration:underline;' href='mailto:Takdin@hashavim.co.il'>Takdin@hashavim.co.il</a>";
+    element.innerHTML = "ΧΧ§Χ•Χ— Χ™Χ§Χ¨, ΧΧ Χ Χ™ΧªΧ ΧΧ”Χ΅Χ™Χ¨ ΧΧ΅ΧΧ Χ–Χ” ΧΧΧ—Χ¨ Χ©Χ”Χ•Χ Χ¤Χ•Χ¨Χ΅Χ ΧΆΧ Χ™Χ“Χ™ Χ‘Χ™Χª Χ”ΧΧ©Χ¤Χ Χ”ΧΆΧΧ™Χ•Χ ΧΧ• Χ‘Χ™Χª Χ”Χ“Χ™Χ Χ”ΧΧ¨Χ¦Χ™ ΧΧΆΧ‘Χ•Χ“Χ”. Χ‘ΧΧ™Χ“Χ” Χ©Χ”Χ Χ ΧΧΆΧ•Χ Χ™Χ™Χ ΧΧ¤Χ Χ•Χª ΧΧΧ™Χ Χ• Χ‘Χ Χ•Χ©Χ, ΧΧ Χ Χ¤Χ Χ” ΧΧΧ™Χ Χ• Χ‘ΧΧ™Χ™Χ<br/><a style='text-decoration:underline;' href='mailto:Takdin@hashavim.co.il'>Takdin@hashavim.co.il</a>";
 }
 function goToRemove(bFromDoc) {
     var seoUrl = (bFromDoc) ? getSEOUrl(window.location.href) : docURL;
@@ -348,7 +348,7 @@ function submitContactForm()
 	        oForm.submit();
 	    }
 	    else {
-            alert("ςμικ μΰωψ δρλν ωιξεω εΰηψιεϊ")
+            alert("ΧΆΧΧ™Χ ΧΧΧ©Χ¨ Χ”Χ΅Χ›Χ Χ©Χ™ΧΧ•Χ© Χ•ΧΧ—Χ¨Χ™Χ•Χª")
 	    }
 
 	}
@@ -442,28 +442,28 @@ function NewContact(){
     var email = $('#email').val();
 
     if (!Required(fullName)) {
-        alert("ΰπΰ δζο ων ξμΰ");
+        alert("ΧΧ Χ Χ”Χ–Χ Χ©Χ ΧΧΧ");
         return false;
     }
    
     if (!Required(phone)) {
-        alert("ΰπΰ δζο θμτεο");
+        alert("ΧΧ Χ Χ”Χ–Χ ΧΧΧ¤Χ•Χ");
         return false;
     }
     else {
         if (!IsPhone(phone)) {
-            alert("ξρτψ θμτεο ΰιπε ηεχι");
+            alert("ΧΧ΅Χ¤Χ¨ ΧΧΧ¤Χ•Χ ΧΧ™Χ Χ• Χ—Χ•Χ§Χ™");
             return false;
         }
     }
     
     if (!Required(email)) {
-        alert("ΰπΰ δζο λϊεαϊ ξιιμ");
+        alert("ΧΧ Χ Χ”Χ–Χ Χ›ΧªΧ•Χ‘Χª ΧΧ™Χ™Χ");
         return false;
     }
     else {
         if (!IsEmail(email)) {
-            alert("λϊεαϊ ξιιμ ΰιπδ ηεχιϊ");
+            alert("Χ›ΧªΧ•Χ‘Χª ΧΧ™Χ™Χ ΧΧ™Χ Χ” Χ—Χ•Χ§Χ™Χª");
             return false;
         }
     }
